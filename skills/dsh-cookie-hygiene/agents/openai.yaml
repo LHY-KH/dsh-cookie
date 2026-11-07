@@ -1,0 +1,5 @@
+interface:
+  display_name: "DSH Cookie Hygiene"
+  short_description: "Fix DeepSeek Harness auth-cookie overflow (HTTP 431)"
+  brand_color: "#3B82F6"
+  default_prompt: "Use $dsh-cookie-hygiene to diagnose why DeepSeek Harness Desktop fails to start with HTTP 431 or 'Web authentication failed', then clean up its accumulated dsh-auth-* cookies safely."
